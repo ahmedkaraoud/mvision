@@ -1,0 +1,15 @@
+1/cmd -> cd Emotion-detection
+
+2/To install the required packages, run:
+	
+	pip install -r requirements.txt
+
+3/If you want to train this model, use:
+
+	cd src
+	python emotions.py --mode train
+
+4/to view the predictions, run:
+
+	cd src
+	python emotions.py --mode display
